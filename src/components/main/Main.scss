@@ -17,9 +17,12 @@
 }
 
 .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   position: relative;
-   margin: 0.5rem;
+  margin: 0.5rem;
   border-radius: 1rem;
 
   &:hover .card-over {
@@ -44,8 +47,10 @@
     font-size: 1rem;
     text-align: center;
   }
-  .title {
+  .title {margin: 0;
     position: absolute;
+    top: 0;
+    left: 0;
     background-color: black;
     color: blue;
     border-radius: 1rem;
@@ -63,7 +68,6 @@
   transform: translateY(100%);
   transition: transform 0.7s ease-in-out;
   z-index: 2;
-
   height: 65%;
   overflow: auto;
   &::-webkit-scrollbar {
