@@ -19,6 +19,8 @@
 .card {
   overflow: hidden;
   position: relative;
+   margin: 0.5rem;
+  border-radius: 1rem;
 
   &:hover .card-over {
     transform: translateY(0%);
