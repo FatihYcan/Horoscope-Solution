@@ -35,3 +35,7 @@ Horoscope Solution, kullanıcılara çeşitli astrolojik bilgiler sunan bir Reac
 - Sass
 - Google Fonts
 - Pixabay
+
+https://github.com/user-attachments/assets/acaca73d-f7ef-4e22-a095-46e58a560eb1
+
+[Live](https://fy-solution-horoscope.netlify.app/)
